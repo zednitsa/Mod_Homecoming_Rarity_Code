@@ -22,7 +22,7 @@ namespace Homecoming.Module.Rarity
             var t = Traverse.Create(typeof(DataHelperEquipment));
             var suffixes = t.Field<Dictionary<int, string>>("suffixesDeveloperRarity").Value;
 
-            suffixes.Add(4, " [A666B3][99]+++[ff]");
+            suffixes.Add(4, " [D999E6][99]+++[ff]");
             suffixes.Add(5, " [E6331A][99]E[ff]");
             suffixes.Add(6, " [E6B31A][99]*[ff]");
         }
